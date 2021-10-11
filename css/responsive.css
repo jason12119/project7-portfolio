@@ -1,0 +1,40 @@
+@media screen and (max-width: 991px) {
+  #projects .grid-container .grid-column .item .overlay .perex {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 768px) {
+  #projects .grid-container {
+    grid-template-columns: 1fr;
+  }
+  #projects .grid-container .grid-column {
+    margin-bottom: 20px;
+  }
+  #projects .grid-container .grid-column .item {
+    margin-bottom: 40px;
+  }
+  #projects .grid-container .grid-column .item:last-of-type {
+    margin-bottom: 0;
+  }
+  #projects .grid-container .grid-column .item .overlay .perex {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 560px) {
+  #header .perex {
+    font-size: 1.8em;
+    margin-top: -10px;
+  }
+  #header h1 {
+    font-size: 5em;
+  }
+}
+@media screen and (max-width: 440px) {
+  #header .perex {
+    font-size: 1.5em;
+    margin-top: -10px;
+  }
+  #header h1 {
+    font-size: 4em;
+  }
+}
